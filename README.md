@@ -1,1 +1,0 @@
-# Automatic-Number-Plate-Recognition
