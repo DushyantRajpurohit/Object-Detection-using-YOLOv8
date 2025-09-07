@@ -1,17 +1,17 @@
-# 🔎 Automatic Number Plate Recognition (ANPR) with OCR
+# Automatic Number Plate Recognition (ANPR) with OCR
 
 This project implements an **Automatic Number Plate Recognition (ANPR)** system using **YOLOv8** for object detection and **EasyOCR** for text recognition.  
 It supports both **images** and **videos** for detecting license plates, extracting them, and reading plate numbers.
 
 The project comes with:
-- 🚗 Vehicle & License Plate Detection (YOLOv8)
-- 🔠 OCR for reading license numbers (EasyOCR)
-- 📊 Training, Evaluation & Visualization pipelines
-- 🌐 A simple **Streamlit app** to upload images/videos and get results instantly
+- Vehicle & License Plate Detection (YOLOv8)
+- OCR for reading license numbers (EasyOCR)
+- Training, Evaluation & Visualization pipelines
+- A simple **Streamlit app** to upload images/videos and get results instantly
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 project/
@@ -34,12 +34,12 @@ project/
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 1. **Clone this repo**  
 ```bash
-git clone https://github.com/your-username/anpr-ocr.git
-cd anpr-ocr
+git clone https://github.com/DushyantRajpurohit/Object-Detection-using-YOLOv8.git
+cd Object-Detection-using-YOLOv8
 ```
 
 2. **Install dependencies**  
