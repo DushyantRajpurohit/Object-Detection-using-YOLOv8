@@ -1,0 +1,17 @@
+ultralytics>=8.0.0
+torch>=2.0.0
+torchvision>=0.15.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+scipy>=1.11.0
+matplotlib>=3.7.0
+pandas>=2.0.0
+filterpy==1.4.5    
+easyocr>=1.7.1
+pyyaml>=6.0
+streamlit==1.28.0
+ultralytics==8.0.148
+opencv-python-headless==4.8.1.78
+numpy==1.26.0
+pillow==10.2.0   
+roboflow==1.1.19
