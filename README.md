@@ -39,7 +39,7 @@ graph TD
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 ```
 Object-Detection-using-YOLOv8/
 ├── app/
@@ -80,29 +80,29 @@ Object-Detection-using-YOLOv8/
 
 ## Getting Started
 
-### 1️⃣ Clone the Repository
+### Clone the Repository
 ```bash
 git clone https://github.com/DushyantRajpurohit/Object-Detection-using-YOLOv8.git
 cd Object-Detection-using-YOLOv8
 ```
 
-### 2️⃣ Install Dependencies
+### Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3️⃣ Train the Model
+### Train the Model
 ```bash
 python src/train.py
 ```
 - Trained weights will be saved in `runs/detect/train/weights/`
 
-### 4️⃣ Run Inference
+### Run Inference
 ```bash
 python src/predict.py
 ```
 
-### 5️⃣ Streamlit Dashboard
+### Streamlit Dashboard
 ```bash
 streamlit run app.py
 ```
