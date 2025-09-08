@@ -97,9 +97,29 @@ python src/train.py
 ```
 - Trained weights will be saved in `runs/detect/train/weights/`
 
+  ### Evaluate the Model
+```bash
+python src/evaluate.py
+```
+
 ### Run Inference
 ```bash
 python src/predict.py
+```
+
+### Detect & Recognize Plates
+```bash
+python src/main.py
+```
+
+### Interpolate Missing Frames
+```bash
+python src/interpolate.py
+```
+
+### Video Inference
+```bash
+python src/visualize.py
 ```
 
 ### Streamlit Dashboard
