@@ -27,7 +27,8 @@ This project addresses these challenges using **YOLOv8 for robust plate detectio
 
 ## Pipeline Diagram
 
-```mermaid
+```
+mermaid
 graph TD
     A[Input Video/Images] --> B[YOLOv8 - Vehicle Detection]
     B --> C[YOLOv8 - License Plate Detection]
