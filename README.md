@@ -42,15 +42,25 @@ graph TD
 ## 📂 Project Structure
 ```
 Object-Detection-using-YOLOv8/
-│-- data/                # Dataset files (images, annotations)
-│-- runs/                # Training outputs (weights, results)
-│-- src/                 # Source code
-│   │-- train.py         # Model training script
-│   │-- predict.py       # Inference on images/videos
-│   │-- evaluate.py      # Model evaluation
-│   │-- utils.py         # Helper functions
-│-- requirements.txt     # Dependencies
-│-- README.md            # Documentation
+├── data/                # Dataset files (images, annotations)
+├── notebooks/
+    ├── YOLOv8_Object_Detection_Video_Inference.ipynb
+    ├── YOLOv8_Object_Detection_Training.ipynb
+    ├── Result_Insights.ipynb
+    ├── Data_Exploration.ipynb
+    ├── Model_Experiments     
+├── src/                 # Source code
+│   ├── train.py         # Model training script
+│   ├── predict.py       # Inference on test data
+│   ├── evaluate.py      # Model evaluation
+│   ├── util.py          # Helper functions
+    ├── config.yaml
+    ├── main.py
+    ├── data.py
+    ├── interpolate.py
+    └── visualize.py
+├── requirements.txt     # Dependencies
+└── README.md            # Documentation
 ```
 
 ---
