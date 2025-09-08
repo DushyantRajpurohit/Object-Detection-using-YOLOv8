@@ -99,7 +99,7 @@ python src/train.py
 
 ### 4️⃣ Run Inference
 ```bash
-python src/predict.py --source sample_images/
+python src/predict.py
 ```
 
 ### 5️⃣ Streamlit Dashboard
