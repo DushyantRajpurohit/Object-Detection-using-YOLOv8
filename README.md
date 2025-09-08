@@ -42,25 +42,27 @@ graph TD
 ## 📂 Project Structure
 ```
 Object-Detection-using-YOLOv8/
-├── data/                # Dataset files (images, annotations)
+├── app/
+          
 ├── notebooks/
-    ├── YOLOv8_Object_Detection_Video_Inference.ipynb
-    ├── YOLOv8_Object_Detection_Training.ipynb
-    ├── Result_Insights.ipynb
-    ├── Data_Exploration.ipynb
-    ├── Model_Experiments     
-├── src/                 # Source code
-│   ├── train.py         # Model training script
-│   ├── predict.py       # Inference on test data
-│   ├── evaluate.py      # Model evaluation
-│   ├── util.py          # Helper functions
-    ├── config.yaml
-    ├── main.py
-    ├── data.py
-    ├── interpolate.py
-    └── visualize.py
-├── requirements.txt     # Dependencies
-└── README.md            # Documentation
+│   ├── YOLOv8_Object_Detection_Video_Inference.ipynb
+│   ├── YOLOv8_Object_Detection_Training.ipynb
+│   ├── Result_Insights.ipynb
+│   ├── Data_Exploration.ipynb
+│   ├── Model_Experiments.ipynb
+    └── Model_Evaluation.ipynb   
+├── src/             
+│   ├── train.py        
+│   ├── predict.py     
+│   ├── evaluate.py     
+│   ├── util.py        
+│   ├── config.yaml
+│   ├── main.py
+│   ├── data.py
+│   ├── interpolate.py
+│   └── visualize.py
+├── requirements.txt     
+└── README.md        
 ```
 
 ---
@@ -80,7 +82,7 @@ pip install -r requirements.txt
 
 ### 3️⃣ Train the Model
 ```bash
-yolo train model=yolov8n.pt data=data.yaml epochs=20 imgsz=640
+python src/train.py
 ```
 - Trained weights will be saved in `runs/detect/train/weights/`
 
