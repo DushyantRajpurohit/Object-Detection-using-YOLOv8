@@ -42,7 +42,7 @@ def download_dataset():
     """
 
     # Initialize Roboflow with your API key
-    rf = Roboflow(api_key="8QR8NiJscJEAfxBnLiIF")
+    rf = Roboflow(api_key="Enter Your API Key")
 
     # Access the project workspace and specific project
     project = rf.workspace("roboflow-universe-projects").project("license-plate-recognition-rxg4e")
@@ -83,4 +83,5 @@ def download_dataset():
 
 
 if __name__ == "__main__":
+
     download_dataset()
