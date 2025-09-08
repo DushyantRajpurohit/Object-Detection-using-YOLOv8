@@ -43,14 +43,25 @@ graph TD
 ```
 Object-Detection-using-YOLOv8/
 ├── app/
-          
+│   ├── Interface/
+│   ├── images/
+│   ├── images/
+│   ├── background.png
+│   └── streamlit_app.py
+├── csv_detections/
+│   ├──crops/
+│   └── detection_results.csv
+├── models/
+│   ├── best.pt
+│   └── yolo8n.pt
 ├── notebooks/
 │   ├── YOLOv8_Object_Detection_Video_Inference.ipynb
 │   ├── YOLOv8_Object_Detection_Training.ipynb
 │   ├── Result_Insights.ipynb
 │   ├── Data_Exploration.ipynb
 │   ├── Model_Experiments.ipynb
-    └── Model_Evaluation.ipynb   
+│   └── Model_Evaluation.ipynb
+├── sort/
 ├── src/             
 │   ├── train.py        
 │   ├── predict.py     
@@ -61,8 +72,8 @@ Object-Detection-using-YOLOv8/
 │   ├── data.py
 │   ├── interpolate.py
 │   └── visualize.py
-├── requirements.txt     
-└── README.md        
+├── README.md     
+└── requirements.txt       
 ```
 
 ---
