@@ -97,7 +97,7 @@ python src/train.py
 ```
 - Trained weights will be saved in `runs/detect/train/weights/`
 
-  ### Evaluate the Model
+### Evaluate the Model
 ```bash
 python src/evaluate.py
 ```
