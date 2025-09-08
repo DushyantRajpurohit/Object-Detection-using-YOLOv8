@@ -1,0 +1,38 @@
+# YOLOv8 Project Configuration
+
+# Paths
+model_path: "models/best.pt"       # Trained model checkpoint
+coco_model: "models/yolov8n.pt"
+data_yaml: "data/data.yaml"        # Dataset YAML (train/val/test paths)
+
+# Training Parameters
+epochs: 50                         # Number of training epochs
+batch_size: 16                     # Default batch size (will auto-adjust in code if GPU < 16GB)
+img_size: 640                      # Image resolution
+device: "cpu"                          # Default GPU index (0), or 'cpu'
+
+# Evaluation Parameters
+conf_threshold: 0.25                # Confidence threshold for filtering weak detections
+iou_threshold: 0.45                 # IoU threshold for NMS
+save_results: true                  # Save evaluation results (plots, metrics, confusion matrix)
+
+# Prediction Parameters
+test_images: "data/test/images"     # Path to test images for inference
+max_predictions: 6                  # Max number of predictions to display in grid
+
+# Output Settings
+project: "runs"                     # Root folder for YOLO outputs
+train_subdir: "train"               # Training results subfolder
+val_subdir: "val"                   # Validation results subfolder
+predict_subdir: "detect"            # Prediction results subfolder
+
+# Reproducibility
+seed: 42                            # Random seed for reproducibility
+
+# Video Processing
+input_video: "./sample.mp4"
+output_video: "./out.mp4"
+
+# CSV Files
+raw_csv: "test.csv"
+interpolated_csv: "test_interpolated.csv"
