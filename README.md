@@ -56,10 +56,9 @@ Check [PyTorch installation guide](https://pytorch.org/get-started/locally/) for
 
 ### 1️⃣ Run the Streamlit App
 ```bash
-streamlit run streamlit_app.py
+streamlit run app/streamlit_app.py
 ```
 - Upload an **image** → get bounding boxes + OCR results.  
-- Upload a **video** → frame-by-frame recognition with live preview.  
 
 ---
 
@@ -134,11 +133,11 @@ frame_nmr,car_id,car_bbox,license_plate_bbox,license_plate_bbox_score,license_nu
 0,1,[100 200 400 500],[120 220 180 260],0.92,ABC1234,0.87
 ```
 
-- Annotated video saved in `results/output.mp4`
+- Annotated video saved in `results/out.mp4`
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 - [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics) – Object Detection  
 - [EasyOCR](https://github.com/JaidedAI/EasyOCR) – Optical Character Recognition  
@@ -148,12 +147,12 @@ frame_nmr,car_id,car_bbox,license_plate_bbox,license_plate_bbox_score,license_nu
 
 ---
 
-## 🙌 Acknowledgements
+## Acknowledgements
 - YOLOv8 by [Ultralytics](https://github.com/ultralytics/ultralytics)  
 - EasyOCR by [JaidedAI](https://github.com/JaidedAI/EasyOCR)  
 - Dataset via [Roboflow](https://roboflow.com/)  
 
 ---
 
-## 📜 License
+## License
 This project is licensed under the MIT License.
