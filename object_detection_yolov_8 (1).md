@@ -1,10 +1,10 @@
-# 🚘 Automatic Number Plate Recognition (ANPR) using YOLOv8 & EasyOCR
+# Automatic Number Plate Recognition (ANPR) using YOLOv8 & EasyOCR
 
 This project implements an **Automatic Number Plate Recognition (ANPR)** system using **YOLOv8** for license plate detection and **EasyOCR** for text recognition. It includes training, evaluation, video processing, and a user-friendly **Streamlit dashboard**.
 
 ---
 
-## ❓ Problem Statement
+## Problem Statement
 Automatic Number Plate Recognition (ANPR) is a critical technology for **traffic monitoring, toll collection, smart parking, law enforcement, and logistics tracking**. Traditional systems often struggle with challenges like:
 - Low-light or poor weather conditions
 - Motion blur from moving vehicles
@@ -15,17 +15,17 @@ This project addresses these challenges using **YOLOv8 for robust plate detectio
 
 ---
 
-## 📌 Features
-- 🔍 **License Plate Detection** using YOLOv8
-- 📝 **Text Extraction (OCR)** with EasyOCR
-- 🎥 **Video Inference** support
-- 📊 **Evaluation Metrics & Visualization** (mAP, precision, recall, loss curves)
-- 🖥️ **Streamlit Dashboard** for interactive demo
-- 🛠️ Modular structure (`train.py`, `predict.py`, `evaluate.py`, etc.)
+## Features
+- **License Plate Detection** using YOLOv8
+- **Text Extraction (OCR)** with EasyOCR
+- **Video Inference** support
+- **Evaluation Metrics & Visualization** (mAP, precision, recall, loss curves)
+- **Streamlit Dashboard** for interactive demo
+- Modular structure (`train.py`, `predict.py`, `evaluate.py`, etc.)
 
 ---
 
-## 🔗 Pipeline Diagram
+## Pipeline Diagram
 
 ```mermaid
 graph TD
@@ -55,7 +55,7 @@ Object-Detection-using-YOLOv8/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1️⃣ Clone the Repository
 ```bash
@@ -86,7 +86,7 @@ streamlit run app.py
 
 ---
 
-## 📊 Results
+## Results
 
 Training results are logged in `runs/detect/train/` and include:
 - **Loss curves**: box_loss, cls_loss, dfl_loss
@@ -98,7 +98,7 @@ Example training curves:
 
 ---
 
-## 🔎 Insights
+## Insights
 - The **box_loss and cls_loss decrease steadily**, indicating the model is learning effective spatial and classification features.
 - **Precision and recall are both high (>95%)**, showing balanced detection without significant false positives/negatives.
 - The **mAP@0.5 (~98%)** confirms strong detection accuracy, while **mAP@0.5:0.95 (~70%)** suggests opportunities for improving small-scale/occluded plate recognition.
@@ -106,16 +106,16 @@ Example training curves:
 
 ---
 
-## 💼 Business Insights
-- 🚗 **Traffic Management**: Automates vehicle monitoring, enabling toll collection, congestion tracking, and real-time analytics.
-- 🛡️ **Security & Surveillance**: Enhances law enforcement by detecting and logging suspicious or blacklisted vehicles.
-- 🏢 **Parking Solutions**: Enables smart parking by automating entry/exit systems, reducing manual intervention.
-- 📦 **Logistics & Fleet Tracking**: Helps companies monitor fleet movement, improve accountability, and optimize delivery routes.
-- 💰 **Revenue Generation**: Supports governments and businesses in toll automation, parking fees, and traffic fines collection.
+## Business Insights
+- **Traffic Management**: Automates vehicle monitoring, enabling toll collection, congestion tracking, and real-time analytics.
+- **Security & Surveillance**: Enhances law enforcement by detecting and logging suspicious or blacklisted vehicles.
+- **Parking Solutions**: Enables smart parking by automating entry/exit systems, reducing manual intervention.
+- **Logistics & Fleet Tracking**: Helps companies monitor fleet movement, improve accountability, and optimize delivery routes.
+- **Revenue Generation**: Supports governments and businesses in toll automation, parking fees, and traffic fines collection.
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 - Improve OCR accuracy with preprocessing (denoising, contrast adjustment)
 - Add **DeepSORT tracking** for multi-frame plate tracking
 - Experiment with advanced backbones (BiFPN, FasterNet)
@@ -124,18 +124,18 @@ Example training curves:
 
 ---
 
-## 📜 License
+## License
 This project is released under the **MIT License**. Note: **YOLOv8** is licensed under **AGPL-3.0**, which may affect commercial usage.
 
 ---
 
-## 🤝 Contributing
+## Contributing
 Contributions are welcome! Please open an issue or submit a pull request.
 
 ---
 
-## 👨‍💻 Author
+## Author
 **Dushyant Rajpurohit**  
-📧 Contact: [your-email@example.com]  
+📧 Contact: [dushyantrajpurohit5412@gmail.com]  
 🔗 GitHub: [DushyantRajpurohit](https://github.com/DushyantRajpurohit)
 
