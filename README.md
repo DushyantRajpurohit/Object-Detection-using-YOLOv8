@@ -29,13 +29,13 @@ This project addresses these challenges using **YOLOv8 for robust plate detectio
 
 ```mermaid
 graph TD
-    A[📥 Input Video/Images] --> B[🚗 YOLOv8 - Vehicle Detection]
-    B --> C[🏷️ YOLOv8 - License Plate Detection]
-    C --> D[📐 Crop License Plate Region]
-    D --> E[🔠 EasyOCR - Text Recognition]
-    E --> F[🔎 Extracted Plate Number]
-    F --> G[📂 Save Results (CSV, Crops, Logs)]
-    G --> H[📊 Streamlit Dashboard - Analytics & Visualization]
+    A[Input Video/Images] --> B[YOLOv8 - Vehicle Detection]
+    B --> C[YOLOv8 - License Plate Detection]
+    C --> D[Crop License Plate Region]
+    D --> E[EasyOCR - Text Recognition]
+    E --> F[Extracted Plate Number]
+    F --> G[Save Results (CSV, Crops, Logs)]
+    G --> H[Streamlit Dashboard - Analytics & Visualization]
 ```
 
 ---
