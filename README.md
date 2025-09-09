@@ -99,8 +99,6 @@ The dataset contains images of vehicles and their corresponding annotated licens
 
 ---
 
----
-
 ## Sample Video  
 
 A sample video used for testing the detection pipeline can be downloaded [here](https://www.pexels.com/video/traffic-flow-in-the-highway-2103099/).  
