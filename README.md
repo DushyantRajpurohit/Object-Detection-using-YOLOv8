@@ -64,6 +64,10 @@ Object-Detection-using-YOLOv8/
 │   ├── Data_Exploration.ipynb
 │   ├── Model_Experiments.ipynb
 │   └── Model_Evaluation.ipynb
+├── runs/detect/
+│   ├── predict
+│   ├── train
+│   └── val
 ├── sort/
 ├── src/             
 │   ├── train.py        
@@ -141,6 +145,10 @@ Training results are logged in `runs/detect/train/` and include:
 Example training curves:
 
 ![results](runs/detect/train/results.png)
+
+Prediction Results:
+![results](runs/detect/predict/0002a5b67e5f0909_jpg.rf.07ca41e79eb878b14032f650f34d0967.jpg)
+
 
 ---
 
