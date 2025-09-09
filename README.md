@@ -90,6 +90,11 @@ Object-Detection-using-YOLOv8/
 
 ---
 
+## Dataset
+
+The dataset used in this can be downloaded from here. [from here](https://universe.roboflow.com/roboflow-universe-projects/license-plate-recognition-rxg4e/dataset/4)
+---
+
 ## Getting Started
 
 ### Clone the Repository
@@ -102,6 +107,12 @@ cd Object-Detection-using-YOLOv8
 ```bash
 pip install -r requirements.txt
 ```
+
+### Download the Dataset
+```bash
+python src/data.py
+```
+- Enter your own API key.
 
 ### Train the Model
 ```bash
