@@ -154,6 +154,10 @@ Prediction Results:
 
 ![results](runs/detect/predict/0002a5b67e5f0909_jpg.rf.07ca41e79eb878b14032f650f34d0967.jpg)
 
+Video Inference Results:
+
+![results](results/out-sample.m4v)
+
 
 ---
 
