@@ -156,7 +156,7 @@ Prediction Results:
 
 Video Inference Results:
 
-![results](results/out-sample.m4v)
+![results](results/license_detection.gif)
 
 
 ---
