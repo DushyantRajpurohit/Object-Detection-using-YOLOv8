@@ -92,7 +92,21 @@ Object-Detection-using-YOLOv8/
 
 ## Dataset
 
-The dataset used in this can be downloaded from here. [from here](https://universe.roboflow.com/roboflow-universe-projects/license-plate-recognition-rxg4e/dataset/4)
+The dataset used in this project is publicly available on **Roboflow Universe**.  
+You can download it directly [from here](https://universe.roboflow.com/roboflow-universe-projects/license-plate-recognition-rxg4e/dataset/4).  
+
+The dataset contains images of vehicles and their corresponding annotated license plates, which were used for training and evaluation of the YOLOv8 + OCR pipeline.  
+
+---
+
+---
+
+## Sample Video  
+
+A sample video used for testing the detection pipeline can be downloaded [here](https://www.pexels.com/video/traffic-flow-in-the-highway-2103099/).  
+
+This video showcases highway traffic flow and was used to demonstrate **real-time license plate detection and recognition** with the trained YOLOv8 + OCR model.  
+
 ---
 
 ## Getting Started
