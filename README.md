@@ -67,6 +67,7 @@ Object-Detection-using-YOLOv8/
 ├── results/
 │   ├── test.csv
 │   ├── test_interpolated.csv
+│   ├── license_detection.gif
 │   └── out-sample.m4v
 ├── runs/detect/
 │   ├── predict
